@@ -11,7 +11,7 @@ const Hero = () => {
                 <div className="absolute z-20 inset-0 flex flex-col items-center justify-center text-white p-8 text-center">
                     <h1 className="text-3xl font-bold w-1/2 text-center">Psychological help with Mental Stress, Relationship Issues, Depression & more</h1>
                     <h2 className="my-4">Feel free to reach out and ask any queries your facing problems with!</h2>
-                    <button className="bg-white w-fit text-black text-center px-4 py-2 rounded-lg cursor-pointer font-bold hover:rounded-xl transition-all ease-in">Book a session</button>
+                    <button className="bg-white w-fit text-black text-center px-4 py-2 rounded-lg cursor-pointer font-bold mt-5 hover:rounded-xl transition-all ease-in">Book a session</button>
                 </div>
             </div>
 
