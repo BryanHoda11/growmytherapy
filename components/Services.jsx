@@ -27,7 +27,7 @@ const Services = () => {
                     {Services.map((s) => (
                         <div key={s.name} className="service-card min-w-[250px] min-h-80 border-[1px] rounded-lg flex flex-col gap-3 px-4 py-2 items-center justify-center">
                             <img src={s.img} className="object-fit" alt="service" />
-                            <h3>{s.name}</h3>
+                            <h3><strong>{s.name}</strong></h3>
                             <p className="text-center">{s.desc}</p>
                         </div>
                     ))}
