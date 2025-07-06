@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
             <footer className="bg-gray-100 text-gray-800 py-10">
-                <div className="max-w-4xl mx-auto px-6 text-center space-y-6">
+                <div className="max-w-4xl mx-auto px-6 sm:text-center space-y-6">
                 
                     <div>
                         <h2 className="text-lg font-semibold">Dr. Serena Blake, PsyD (Clinical Psychologist)</h2>

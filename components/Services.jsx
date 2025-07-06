@@ -22,13 +22,13 @@ const Services = () => {
     return (
         <>
             <div className="service-container my-10">
-                <h1 className="text-2xl text-center font-semibold pb-3">My specialities</h1>
-                <div className="services flex w-[85%] mx-auto items-center gap-4">
+                <h1 className="text-lg sm:text-2xl text-center font-semibold pb-3">My specialities</h1>
+                <div className="services flex flex-col lg:flex-row w-full sm:w-[85%] mx-auto justify-center items-center gap-4">
                     {Services.map((s) => (
                         <div key={s.name} className="service-card min-w-[250px] min-h-80 border-[1px] rounded-lg flex flex-col gap-3 px-4 py-2 items-center justify-center">
                             <img src={s.img} className="object-fit" alt="service" />
                             <h3><strong>{s.name}</strong></h3>
-                            <p className="text-center">{s.desc}</p>
+                            <p className="text-center max-sm:text-sm">{s.desc}</p>
                         </div>
                     ))}
                 </div>

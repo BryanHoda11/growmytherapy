@@ -5,7 +5,7 @@ const Contact = () => {
         <>
         
             <form className="max-w-md mx-auto p-6 bg-white dark:bg-gray-900 rounded-2xl shadow-lg space-y-5 my-10">
-                <h1 className="text-2xl text-center font-semibold pb-3">Contact Me</h1>
+                <h1 className="text-lg sm:text-2xl text-center font-semibold pb-3">Contact Me</h1>
 
                 <div className="flex flex-col">
                     <label htmlFor="name" className="mb-1 text-sm font-medium text-gray-700 dark:text-gray-200"> Name </label>
